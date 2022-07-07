@@ -19,7 +19,9 @@
 
 │   &nbsp;&nbsp;&nbsp;└── drawable &nbsp;&nbsp;&nbsp;&nbsp; <font color = grey>// image resource</font>
 
-│   &nbsp;&nbsp;&nbsp;└── layout &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color = grey>// interface setting files</font>
+│   &nbsp;&nbsp;&nbsp;└── layout &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color = grey>// interface setting files (vertical, default interface)</font>
+
+│   &nbsp;&nbsp;&nbsp;└── layout_land &nbsp; <font color = grey>// interface setting files (horizontal) </font>
 
 │   &nbsp;&nbsp;&nbsp;└── values 
 
