@@ -4,7 +4,7 @@
 
 &nbsp; &nbsp; This project mainly creates an Android application named **Rainbow** that can recognize colors from an image and label their names. Rainbow aims to help people with color vision deficiency to recognize colors at any time and anywhere quickly and conveniently.
  
-&nbsp; &nbsp; In beta version, users can upload image from local storage or directly take a photo. Two color detection modes are available: pixel detection mode and blob detection mode. Users can choose to recognize the color in the image in the place where he/she touched, and get its RGB value and the name of this color; or to choose specific color on the image and receive the outline of the color blob and the blob's color.
+&nbsp; &nbsp; In beta version, users can upload image from local storage or directly take a photo. Two color detection modes are available: pixel detection mode and blob detection mode. Users can choose to recognize the color in the image in the place where he/she touched, and get its RGB value and the name of this color; or to choose specific color on the image and receive the outline of the color blob and the blob's color. If the user is detecting on an image with large width and small height, he/she can open the auto-rotation function of the mobile phone, rotate the device and get a more comfortable view in the horizontal interface. 
 
 ## Dependencies
 
@@ -38,6 +38,8 @@
 &nbsp; &nbsp; To use **Rainbow**, users can open the application and enter the main page. In the main page, there're two buttons: choose image from local storage, or take photo from camera. Users can choose one way to upload an image.
 
 &nbsp; &nbsp; After uploading image, the application will jump to the color detection page. Users can choose detection mode by pressing the mode switch button on the top of the page. In color pixel detection mode (default), users can touch any place they want to examine on the image, and get the recognition result (color name and RGB value) shown in the texts below. In color blob detection mode, users can touch any place to specify the color they want to examine; the result in text form will shown below just like in pixel detection mode, and the outline of color blobs will also be shown on the image.
+
+&nbsp; &nbsp; If the uploaded image has large width and small height, and users find it shown too small in the vertical interface, they can open the auto-rotation function of the mobile phones, rotate the device, and the color detection page will also automatically rotate. By doing this, users can have a clearer view of the image.
 
 &nbsp; &nbsp; In all pages, users can click the information icon in the top-right corner and enter the feedback page. They can read the introduction about the development team and offer feedbacks to developers through the contact information on this page.
 
